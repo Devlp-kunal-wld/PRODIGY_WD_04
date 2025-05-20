@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin : 0;
+            padding :0;
+        }
+        body{
+            background-color: rgba(0,0,33);
+            color: white;
+        }
+        body{
+            font-family:'Times New Roman', Times, serif;
+            line-height: 1.6;
+        }
+        nav{
+            display: flex;
+            justify-content:space-around ;
+            align-items:center;
+            background-color: rgb(12, 12, 59);
+            height: 70px;
+            
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 25px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+         color: brown;
+         font-size: 1.1rem;
+        }
+        .left{
+            font-size: 1.3rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin:40px 0;
+        }
+        .firstsection> div{
+             width:30%;
+        }
+        .leftsection{
+            font-size:1.5rem;
+        }
+        .rightsection {
+    width: 80%;
+        }
+        .purple{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class ="left">Kunal's Portfolio</div>
+            <div class ="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section  class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple" >Kunal</span>
+                <div >and i am a passionate Web Devloper</div>
+            </div>
+        <div class="rightsection">
+             <img src="pic.png" alt="img" class="rightsection">
+        </section>
+        <section class="secondsection">
+            <hr>
+            <h1>Past Experience</h1>
+        </section>
+    </main>
+</body>
+</html>
